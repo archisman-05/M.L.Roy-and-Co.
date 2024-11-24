@@ -67,3 +67,43 @@ main {
     padding: 4rem;
     text-align: center;
 }
+.container {
+    text-align: center;
+    margin-top: 15%;
+}
+.upper{
+    font-size: 2.4rem;
+}
+/* Animated Title */
+.animated-title {
+    font-size: 9rem;
+    font-weight: bold;
+    color: #A9927D;
+    position: relative;
+    animation: fadeIn 3s ease-in-out;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Font Size */
+@media (max-width: 768px) {
+    .animated-title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .animated-title {
+        font-size: 2rem;
+    }
+}
