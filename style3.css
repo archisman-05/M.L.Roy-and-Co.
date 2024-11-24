@@ -37,7 +37,10 @@ body {
 .nav-links li a:hover {
     color: #A9927D;
 }
-
+.classy{
+    height: 01px;
+    background-color: #A9927D;
+}
 /* Responsive Styling */
 @media (max-width: 768px) {
     .nav-links {

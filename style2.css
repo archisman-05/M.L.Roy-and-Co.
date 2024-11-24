@@ -37,7 +37,10 @@ body {
 .nav-links li a:hover {
     color: #A9927D;
 }
-
+.classy{
+    height: 01px;
+    background-color: #A9927D;
+}
 @media (max-width: 768px) {
     .nav-links {
         display: none;
@@ -85,6 +88,8 @@ main {
     color: #F2F4F3;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     display: block;
+
+    border: 1px solid #A9927D;
 }
 
 .branch-img {
